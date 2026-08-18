@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v39-project-handoff";
+const CACHE = "tr-eq-field-v40-no-overwrite-safety-lock";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

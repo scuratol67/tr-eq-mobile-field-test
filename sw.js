@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v59-unified-customer-transfer";
+const CACHE = "tr-eq-field-v62-visual-equipment-gallery";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

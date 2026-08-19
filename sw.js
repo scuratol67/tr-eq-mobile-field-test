@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v66-crop-and-modern-equipment-cards";
+const CACHE = "tr-eq-field-v67-force-new-style-refresh";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

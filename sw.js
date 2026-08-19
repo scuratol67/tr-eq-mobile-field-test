@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v49-vertical-folders-project-flags";
+const CACHE = "tr-eq-field-v50-home-report-editing";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v55-home-and-contained-areas";
+const CACHE = "tr-eq-field-v58-compact-area-row";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

@@ -1,4 +1,4 @@
-const CACHE = "tr-eq-field-v47-visible-customer-first-home";
+const CACHE = "tr-eq-field-v48-three-folder-home";
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.add("./manifest.webmanifest")).then(() => self.skipWaiting()));

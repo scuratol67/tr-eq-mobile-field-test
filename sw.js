@@ -1,4 +1,4 @@
-const APP_RELEASE = "94";
+const APP_RELEASE = "95";
 const SHELL_CACHE = `tr-eq-shell-v${APP_RELEASE}`;
 const PHOTO_CACHE = "tr-eq-protected-photos-v1";
 
